@@ -2,28 +2,24 @@
 
 ## Group Members:
 
-names here.
+Stella Yampolsky
        
 # Intentions:
 
-A statement of the problem you are solving and/or a high level description of the project.
-    
+Create a music player program. It will build on project 1 by incorporating a music player, saving the library data, and using actual music files. The user will be able to add files from the directory of the program to the library, and possibly create playlists, and play the songs alphabetically, select songs one at a time, or possibly play on shuffle.
+
 # Intended usage:
-
-A description as to how the project will be used (describe the user interface).
-  
+Running the program will prompt the user to type in the commands for what they want to do, whether it's add songs, play songs, view their library, or view the song details. 
 # Technical Details:
-
-A description of your technical design. This should include:
-   
-How you will be using the topics covered in class in the project.
+The project will allocate memory and work with files (the music library), find information about files(song details), and use processes (playing the music with fork and execvp).
      
-How you are breaking down the project and who is responsible for which parts.
-  
-What data structures you will be using and how.
+I will be doing everything.  
+I will be using arrays and linked lists.
      
-What algorithms and /or data structures you will be using, and how.
-    
+The project will need the algorithms needed for the original project (searching, sorting, etc.) as well as algorithms for processes and saving the library data. 
 # Intended pacing:
-
-A timeline with expected completion dates of parts of the project.
+Skeletons and organization: 1/7
+Save library data: 1/9
+Add mp3 files from directory: 1/15
+Actually play the music: 1/19
+Playlists, stretch goals, debugging, panic induced all-nighters: 1/21
